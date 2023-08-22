@@ -1,0 +1,66 @@
+.list {
+    background-color: orange;
+}
+
+.timetable {
+    background-color: greenyellow;
+}
+
+.job {
+    background-color: blue;
+}
+
+.spandiv {
+    background-color: indigo;
+}
+
+.card {
+    width: 15em;
+    border: 1px solid #333;
+    box-shadow: 0 4px 8px #ccc;
+    padding: 8px;
+    background-color: #fff;
+}
+  
+.card img {
+    width: 100%;
+    height: auto;
+}
+  
+.card-body {
+    padding: 12px;
+}
+  
+.card-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+  
+.card-text {
+    font-size: 1em;
+}
+
+span.ingredient {
+    color: #f00;
+    font-weight: bold;
+}
+
+a :hover {
+    background-color: aquamarine;    
+}
+
+.list:hover {
+    background-color: red;
+}
+
+.timetable:hover {
+    background-color: blue;
+}
+
+.job:hover {
+    background-color: green;
+}
+
+.spandiv:hover {
+    background-color: yellow;
+}

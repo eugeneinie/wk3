@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+section {
+    margin: 10px auto;
+    width: 600px;
+    height: 600px;
+    border: 5px solid blue;
+}
+
+.props:nth-of-type(4){
+    background: linear-gradient(60deg, green, violet, crimson);
+}
+
+.props:nth-of-type(2){
+    background: linear-gradient(180deg, green 20%, violet, crimson);
+}
+
+/*.props:nth-of-type(4){
+    background-color: yellow;
+}*/
+
+.props:nth-of-type(2){
+    background-color: pink;
+}
+
+.props:nth-of-type(3){
+    background: linear-gradient(90deg, green 33.3%, white 33.3%, white 66.6%, green 66.6%);
+}
+
+/*.props:nth-of-type(3){
+    background-color: crimson;
+}*/
+
+/*.props:nth-of-type(1){
+    background-color: purple;
+}*/
+
+/*.props:nth-of-type(1){
+    background-color: purple;
+}*/
+
+.props:nth-of-type(1){
+    background-image: linear-gradient(to bottom left, crimson 40%, fuchsia 40%);
+}
+
+.props:nth-of-type(5){
+    background-color: green;
+}
+
+.props:first-of-type/*:hover*/{
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Quick-sand' sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Borel', cursive;
+    font-weight: 200;
+    background-color: rgb(50, 250, 0);
+    background-color: hsl(267, 100%, 50);
+}
